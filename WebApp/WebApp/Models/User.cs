@@ -10,8 +10,7 @@ namespace WebApp.Models
         public int UserID { get; set; }
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
-        public DateTime EnrollmentDate { get; set; }
 
-        public virtual ICollection<UserTask> Enrollments { get; set; }
+        public virtual ICollection<UserTask> Tasks { get; set; }
     }
 }
